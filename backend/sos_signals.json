@@ -1,0 +1,62 @@
+{
+  "sos-test-persistent-signal": {
+    "id": "sos-test-persistent-signal",
+    "lat": 34.2787,
+    "lng": 77.6047,
+    "location_name": "Khardung La Pass",
+    "emergency_type": "AMS Hypoxia",
+    "description": "Distress test persistence until stand down",
+    "traveler_name": "Automated Tester",
+    "phone": "",
+    "altitude": "17,582 ft",
+    "status": "RESOLVED",
+    "created_at": "2026-09-12T05:26:03.007604+00:00",
+    "is_demo": false,
+    "resolved_at": "2026-09-12T05:26:05.128468+00:00"
+  },
+  "sos-1789150347017": {
+    "id": "sos-1789150347017",
+    "lat": 22.4917,
+    "lng": 88.2929,
+    "location_name": "Device Location (22.4917, 88.2929)",
+    "emergency_type": "Altitude Sickness (AMS / SpO2 Hypoxia)",
+    "description": "Altitude hypoxia symptoms detected. Oxygen support requested.",
+    "traveler_name": "Explorer",
+    "phone": "",
+    "altitude": "GPS",
+    "status": "RESOLVED",
+    "created_at": "2026-09-11T18:12:27.027077+00:00",
+    "is_demo": false,
+    "resolved_at": "2026-09-11T18:13:18.401290+00:00"
+  },
+  "sos-1789189596430": {
+    "id": "sos-1789189596430",
+    "lat": 22.5752,
+    "lng": 88.4275,
+    "location_name": "Device Location (22.5752, 88.4275)",
+    "emergency_type": "Lost / Search & Rescue Required",
+    "description": "Altitude hypoxia symptoms detected. Oxygen support requested.",
+    "traveler_name": "Explorer",
+    "phone": "",
+    "altitude": "GPS",
+    "status": "RESOLVED",
+    "created_at": "2026-09-12T05:06:36.443406+00:00",
+    "is_demo": false,
+    "resolved_at": "2026-09-12T14:21:01.441594+00:00"
+  },
+  "sos-1789198781995": {
+    "id": "sos-1789198781995",
+    "lat": 22.5754,
+    "lng": 88.4274,
+    "location_name": "Device Location (22.5754, 88.4274)",
+    "emergency_type": "Altitude Sickness (AMS / SpO2 Hypoxia)",
+    "description": "Altitude hypoxia symptoms detected. Oxygen support requested.",
+    "traveler_name": "Explorer",
+    "phone": "",
+    "altitude": "GPS",
+    "status": "RESOLVED",
+    "created_at": "2026-09-12T07:39:42.092347+00:00",
+    "is_demo": false,
+    "resolved_at": "2026-09-12T14:20:56.681581+00:00"
+  }
+}

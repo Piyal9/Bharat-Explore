@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <meta name="description" content="Bharat Explore — Venture without edges. Uncover India's living corridors and smart eco-tourism itineraries. Built for Smart India Hackathon (SIH 2026).">
+  <meta name="keywords" content="Bharat Explore, India tourism, SIH 2026, sustainable tourism, Ladakh travel, mountain passes, cultural corridors, cinematic tourism, AI travel">
+  <meta name="author" content="CodeBreakerz (SIH 2026)">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="theme-color" content="#071711">
+
+  <!-- Mobile App & PWA Capabilities -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Bharat Explore">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- Canonical & PWA Manifest -->
+  <link rel="canonical" href="https://bharatexplore.gov.in/">
+  <link rel="manifest" href="/manifest.json">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Bharat Explore">
+  <meta property="og:url" content="https://bharatexplore.gov.in/">
+  <meta property="og:title" content="Home — Bharat Explore | Venture Without Edges">
+  <meta property="og:description" content="AI-driven sustainable tourism intelligence, high altitude pass alerts, cultural corridors, and offline traveler field kit.">
+  <meta property="og:image" content="https://bharatexplore.gov.in/assets/images/favicon.png">
+  <meta property="og:locale" content="en_IN">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://bharatexplore.gov.in/">
+  <meta name="twitter:title" content="Home — Bharat Explore | Venture Without Edges">
+  <meta name="twitter:description" content="AI-driven sustainable tourism intelligence, high altitude pass alerts, cultural corridors, and offline traveler field kit.">
+  <meta name="twitter:image" content="https://bharatexplore.gov.in/assets/images/favicon.png">
+
+  <!-- JSON-LD Structured Data Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://bharatexplore.gov.in/#website",
+        "url": "https://bharatexplore.gov.in/",
+        "name": "Bharat Explore",
+        "description": "Smart sustainable tourism platform for India",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://bharatexplore.gov.in/explore?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "GovernmentOrganization",
+        "@id": "https://bharatexplore.gov.in/#organization",
+        "name": "Bharat Explore - Ministry of Tourism / SIH 2026",
+        "url": "https://bharatexplore.gov.in/",
+        "logo": "https://bharatexplore.gov.in/assets/images/favicon.png"
+      }
+    ]
+  }
+  </script>
+
+  <title>Home — Bharat Explore | Venture Without Edges</title>
+
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <link rel="shortcut icon" href="assets/images/favicon.png">
+  <link rel="apple-touch-icon" href="assets/images/favicon.png">
+
+  <!-- Typography: Inter & Project Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Project Styles & Liquid Glass -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="src/index.css">
+
+  <style>
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: #000;
+      color: #fff;
+      overflow-x: hidden;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* GSAP Entrance Animation Initial States */
+    .hero-typography-container {
+      opacity: 0;
+      transform: translateY(24px);
+    }
+
+    .bottom-block-container {
+      opacity: 0;
+      transform: translateY(24px);
+    }
+
+    /* Smooth Action Button Glow */
+    .cta-plan-btn {
+      transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .cta-plan-btn:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 32px 4px rgba(255, 255, 255, 0.2);
+    }
+    .cta-plan-btn:active {
+      transform: scale(0.97);
+    }
+
+    /* Fixed Top Navbar Glass Styling for Home */
+    .cinematic-header {
+      background: rgba(7, 23, 17, 0.45);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+  </style>
+
+  <!-- GSAP Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+</head>
+<body class="min-h-screen bg-black text-white overflow-x-hidden relative select-none" style="font-family: 'Inter', sans-serif;">
+
+  <!-- Global Header / Institutional Navbar -->
+  <header class="nav cinematic-header" id="navbar">
+    <a class="brand" href="/" aria-label="Bharat Explore home">
+      <img src="assets/images/favicon.png" alt="Bharat Explore Logo" class="brand-logo" width="34" height="34">
+      <span data-i18n="brand">BHARAT <b>EXPLORE</b></span>
+    </a>
+    <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="/" class="active" data-i18n="nav_home">Home</a>
+      <a href="html/explore.html" data-i18n="nav_explore">Destinations</a>
+      <a href="html/circuits.html" data-i18n="nav_circuits">Portals</a>
+      <a href="html/map.html" data-i18n="nav_map">State Map</a>
+      <a href="html/planner.html" data-i18n="nav_planner">Itinerary</a>
+      <a href="html/ai.html" data-i18n="nav_ai">Bharat AI</a>
+      <a href="html/responsible.html" data-i18n="nav_responsible">Eco Travel</a>
+      <a href="html/culture.html" data-i18n="nav_culture">Culture</a>
+      <a href="html/food.html" data-i18n="nav_food">Cuisine</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="searchBtn" title="Global Search" aria-label="Global Search" data-i18n-title="nav_search">⌕</button>
+<button id="fieldKitQuickBtn" title="Emergency Help & Offline Field Kit" aria-label="Emergency Help & Offline Field Kit" class="field-kit-badge-btn nav-help-btn" data-i18n="nav_help_sos">
+        🆘 Help
+      </button>
+      <button id="savedBtn" title="My Journey Bookmarks" aria-label="My Journey Bookmarks" class="has-badge" data-i18n-title="nav_saved_title">
+        ♥ <span class="badge-count" id="navSavedCount">0</span>
+      </button>
+      <button id="navAuthBtn" class="nav-auth-btn" title="Sign In or View Profile" aria-label="Sign In or View Profile">
+        <span class="auth-icon">👤</span>
+        <span class="auth-label">Sign In</span>
+      </button>
+      <select id="language" aria-label="Language">
+        <option value="en">EN</option>
+        <option value="hi">हिं</option>
+        <option value="bn">বাং</option>
+      </select>
+    </div>
+  </header>
+
+  <!-- Video Background Layer with Scale and Parallax Container -->
+  <div id="videoParallaxContainer" class="fixed inset-0 z-0 w-full h-full scale-[1.08] origin-center pointer-events-none">
+    <video
+      id="heroVideo"
+      class="w-full h-full object-cover"
+      src="https://github.com/StoicWatermelon/Tourism-SIH/releases/download/v1.0/new.4k.mp4"
+      autoplay
+      muted
+      loop
+      playsinline
+    >
+      <source src="https://github.com/StoicWatermelon/Tourism-SIH/releases/download/v1.0/new.4k.mp4" type="video/mp4">
+    </video>
+    <!-- Cinematic Vignette Mesh Overlay -->
+    <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/85"></div>
+  </div>
+
+  <!-- Hero Typography (Fixed, top: 120px, z-20, centered) -->
+  <div id="heroTypography" class="hero-typography-container fixed top-[120px] left-0 right-0 z-20 flex flex-col items-center justify-center text-center px-4 pointer-events-none">
+    <h1 style="font-size: clamp(40px, 5.4vw, 72px); line-height: 1.1; letter-spacing: -0.02em; font-family: 'Inter', sans-serif;" class="m-0 p-0 font-normal">
+      <span class="block text-white font-medium drop-shadow-md">
+        Venture without edges.
+      </span>
+      <span class="block font-normal mt-1 drop-shadow-sm" style="color: rgba(255, 255, 255, 0.55);">
+        Uncover with keen instinct.
+      </span>
+    </h1>
+  </div>
+
+  <!-- Bottom Block (Fixed bottom-14, z-20, flex-col items-center gap-6) -->
+  <div id="bottomBlock" class="bottom-block-container fixed bottom-14 left-0 right-0 z-20 flex flex-col items-center gap-6 px-4 text-center">
+    <!-- Subtitle Paragraph -->
+    <p class="max-w-[620px] text-[15px] leading-relaxed m-0">
+      <span class="text-white">
+        Our smart itineraries shape around you — your rhythm, your vibe, your hunger for adventure.
+      </span>
+      <span style="color: rgba(255, 255, 255, 0.55);">
+        Each getaway is tailored, seamless, and wholly yours.
+      </span>
+    </p>
+
+    <!-- Action Button -->
+    <div>
+      <a
+        href="html/explore.html"
+        class="cta-plan-btn inline-block bg-white text-black text-[15px] font-medium rounded-full px-8 py-3.5 cursor-pointer no-underline"
+      >
+        Explore The Unknown
+      </a>
+    </div>
+
+    <!-- Security Badge Row with Lucide Lock Icon -->
+    <div class="flex items-center gap-2">
+      <!-- Lucide Lock SVG (size=13, strokeWidth=1.5) -->
+      <svg
+        width="13"
+        height="13"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        style="color: rgba(255, 255, 255, 0.7);"
+      >
+        <rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect>
+        <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+      </svg>
+      <span class="text-[11px] font-medium tracking-[0.14em] uppercase" style="color: rgba(255, 255, 255, 0.7);">
+        SECURE BY DESIGN. ZERO DATA LEAKS.
+      </span>
+    </div>
+  </div>
+
+  <!-- GSAP Motion & Interaction Engine -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const heroVideo = document.getElementById('heroVideo');
+      const videoContainer = document.getElementById('videoParallaxContainer');
+      const heroTypography = document.getElementById('heroTypography');
+      const bottomBlock = document.getElementById('bottomBlock');
+
+      // 1. Programmatic 1.25x Playback Rate on metadata load
+      if (heroVideo) {
+        const setRate = () => { heroVideo.playbackRate = 1.25; };
+        if (heroVideo.readyState >= 1) {
+          setRate();
+        } else {
+          heroVideo.addEventListener('loadedmetadata', setRate);
+        }
+      }
+
+      // 2. On-mount GSAP Entrance Transitions
+      if (typeof gsap !== 'undefined') {
+        gsap.to(heroTypography, {
+          opacity: 1,
+          y: 0,
+          duration: 1.2,
+          ease: 'power3.out'
+        });
+
+        gsap.to(bottomBlock, {
+          opacity: 1,
+          y: 0,
+          duration: 1.2,
+          delay: 0.35,
+          ease: 'power3.out'
+        });
+
+        // 3. Mouse Parallax GSAP lerp loop on requestAnimationFrame
+        let targetX = 0;
+        let targetY = 0;
+        let currentX = 0;
+        let currentY = 0;
+
+        window.addEventListener('mousemove', (e) => {
+          const cx = window.innerWidth / 2;
+          const cy = window.innerHeight / 2;
+          targetX = ((e.clientX - cx) / cx) * 20;
+          targetY = ((e.clientY - cy) / cy) * 20;
+        }, { passive: true });
+
+        const lerpParallax = () => {
+          currentX += (targetX - currentX) * 0.06;
+          currentY += (targetY - currentY) * 0.06;
+
+          if (videoContainer) {
+            gsap.set(videoContainer, {
+              x: currentX,
+              y: currentY,
+              force3D: true
+            });
+          }
+
+          requestAnimationFrame(lerpParallax);
+        };
+
+        requestAnimationFrame(lerpParallax);
+      } else {
+        // Fallback if GSAP is unavailable
+        heroTypography.style.opacity = '1';
+        heroTypography.style.transform = 'translateY(0)';
+        bottomBlock.style.opacity = '1';
+        bottomBlock.style.transform = 'translateY(0)';
+      }
+
+      // Mobile navbar toggle support
+      const navToggle = document.querySelector('.nav-toggle');
+      if (navToggle) {
+        navToggle.addEventListener('click', () => {
+          const nav = document.getElementById('navbar');
+          nav.classList.toggle('open');
+          navToggle.setAttribute('aria-expanded', nav.classList.contains('open'));
+        });
+      }
+    });
+  </script>
+
+  <!-- Himalayan Emergency Help & SOS Dispatch Modal (SIH 2026) -->
+  <div class="modal" id="fieldKitModal" aria-hidden="true">
+    <div class="modal-card help-modal-card">
+      <button class="close" data-close onclick="closeHelpModal()">×</button>
+      
+      <div class="help-modal-header">
+        <span class="help-modal-badge">● LIVE HIMALAYAN & NATIONAL EMERGENCY SYSTEM (SIH 2026)</span>
+        <h2>Himalayan Emergency Help & SOS Dispatch</h2>
+        <p>Instant satellite-linked distress transmitter, 24/7 tourist helpline, police command, and altitude trauma rescue.</p>
+      </div>
+
+      <!-- 1. SOS AT THE FIRST (TOP SECTION) -->
+      <div class="sos-beacon-box">
+        <div class="sos-beacon-top-row">
+          <div class="sos-status-tag">
+            <span class="live-dot"></span>
+            <span>SATELLITE BEACON STANDBY • READY TO TRANSMIT</span>
+          </div>
+          <div class="sos-gps-chip" id="sosGpsDisplay">
+            📍 <b>Acquiring device location...</b>
+          </div>
+        </div>
+
+        <div class="sos-input-grid">
+          <div class="sos-field">
+            <label for="sosEmergencyType">Emergency Distress Scenario *</label>
+            <select id="sosEmergencyType">
+              <option value="Altitude Sickness (AMS / SpO2 Hypoxia)">🏔️ Altitude Sickness (AMS / SpO2 &lt; 70% Hypoxia)</option>
+              <option value="Mountain Pass Blocked / Avalanche / Landslide">❄️ High Mountain Pass Blocked / Avalanche</option>
+              <option value="Vehicle Breakdown / Stranded Remote Sector">🚗 Vehicle Breakdown / Stranded Remote Sector</option>
+              <option value="Medical Trauma / Severe Injury">🏥 Medical Trauma / Severe Injury</option>
+              <option value="Lost / Search & Rescue Required">🆘 Search & Rescue / Lost in Wilderness</option>
+            </select>
+          </div>
+          <div class="sos-field">
+            <label for="sosSectorSelect">Override Location (Optional)</label>
+            <select id="sosSectorSelect">
+              <option value="current-device">📍 Current Device Location (Auto GPS)</option>
+              <option value="khardungla">Khardung La Pass (17,582 ft) - Leh Sector</option>
+              <option value="changla">Chang La Pass (17,688 ft) - Pangong Route</option>
+              <option value="tanglangla">Tanglang La Pass (17,480 ft) - Manali Hwy</option>
+              <option value="zojila">Zoji La Pass (11,575 ft) - Srinagar-Leh Hwy</option>
+              <option value="pangong">Pangong Tso Sector (14,270 ft)</option>
+              <option value="nubra">Diskit / Nubra Valley (10,000 ft)</option>
+              <option value="hanle">Hanle Dark Sky Reserve (14,900 ft)</option>
+              <option value="leh">Leh District SNM Trauma Base (11,500 ft)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="sos-field" style="margin-bottom: 14px;">
+          <label for="sosNotes">Emergency Details / Notes</label>
+          <input type="text" id="sosNotes" placeholder="e.g. 2 travelers with severe headache, pulse ox dropping, need oxygen cylinder & evacuation" value="Altitude hypoxia symptoms detected. Oxygen support requested.">
+        </div>
+
+        <button type="button" class="sos-transmit-btn" id="transmitSosBtn">
+          🚨 <b>TRANSMIT EMERGENCY SOS DISTRESS SIGNAL</b>
+        </button>
+
+        <!-- Live Feedback Panel -->
+        <div class="sos-broadcast-feedback" id="sosBroadcastFeedback"></div>
+      </div>
+
+      <!-- 2. NATIONAL TOURIST HELPLINE & POLICE NUMBERS (IMMEDIATELY BELOW SOS) -->
+      <div class="hotlines-section">
+        <div class="hotlines-title">
+          <span>📞 24/7 National Emergency Hotlines & Police Response</span>
+        </div>
+        
+        <div class="hotlines-grid">
+          <!-- National Tourist Helpline -->
+          <div class="hotline-card tourist-card">
+            <div class="hotline-card-header">
+              <div class="hotline-card-icon">🇮🇳</div>
+              <div>
+                <div class="hotline-card-name">National Tourist Helpline (24/7)</div>
+                <div class="hotline-card-sub">Ministry of Tourism, Govt of India • Multi-lingual (12 Languages)</div>
+              </div>
+            </div>
+            <a href="tel:1363" class="hotline-call-action" title="Call 1363">
+              <span class="hotline-number">📞 1363 (Toll-Free)</span>
+              <span class="hotline-badge-btn">Tap to Call</span>
+            </a>
+          </div>
+
+          <!-- National Police & ERSS -->
+          <div class="hotline-card police-card">
+            <div class="hotline-card-header">
+              <div class="hotline-card-icon">👮</div>
+              <div>
+                <div class="hotline-card-name">Police Emergency Response (ERSS)</div>
+                <div class="hotline-card-sub">Unified National Emergency Helpline • Police Control Room</div>
+              </div>
+            </div>
+            <a href="tel:112" class="hotline-call-action" title="Call 112">
+              <span class="hotline-number">🚨 112 / 100</span>
+              <span class="hotline-badge-btn">Tap to Call</span>
+            </a>
+          </div>
+
+          <!-- SNM Hospital Leh Trauma -->
+          <div class="hotline-card hospital-card">
+            <div class="hotline-card-header">
+              <div class="hotline-card-icon">🏥</div>
+              <div>
+                <div class="hotline-card-name">SNM District Hospital & Trauma Centre</div>
+                <div class="hotline-card-sub">Leh High-Altitude Hyperbaric & Intensive Oxygen Chamber Base</div>
+              </div>
+            </div>
+            <a href="tel:+911982252014" class="hotline-call-action" title="Call SNM Hospital">
+              <span class="hotline-number">🚑 +91-1982-252014</span>
+              <span class="hotline-badge-btn">Call Trauma Base</span>
+            </a>
+          </div>
+
+          <!-- BRO Highway Rescue -->
+          <div class="hotline-card rescue-card">
+            <div class="hotline-card-header">
+              <div class="hotline-card-icon">🚜</div>
+              <div>
+                <div class="hotline-card-name">BRO Highway Mountain Rescue & HIMANK</div>
+                <div class="hotline-card-sub">District Disaster Management Authority (DDMA) Avalanche Clearance</div>
+              </div>
+            </div>
+            <a href="tel:1077" class="hotline-call-action" title="Call BRO Rescue">
+              <span class="hotline-number">🚧 1077 / 1070</span>
+              <span class="hotline-badge-btn">Call Rescue</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. OFFLINE TRAVEL FIELD KIT & GUIDELINES -->
+      <div class="help-safety-guidelines-box">
+        <div class="help-safety-actions">
+          <div>
+            <strong style="color: #fff; font-size: 14px;">🛡️ Official Himalayan Safety & Danger Guidelines</strong>
+            <p style="color: #94a3b8; font-size: 12px; margin: 4px 0 0;">Download vector PDF with AMS golden rules, SpO2 survival tables, & checkpoint rules.</p>
+          </div>
+          <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+            <button class="btn primary download-pass-btn" id="downloadFieldPassBtnModal" onclick="downloadOfflineFieldPassPDF(null, this)">
+              📥 Download Guidelines (PDF)
+            </button>
+            <button class="btn light" onclick="window.print()">
+              🖨️ Print
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Ambient Toast Notification -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Global App Scripts for Authentication, Offline Pass, SOS & i18n -->
+  <script src="js/i18n.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/jspdf.umd.min.js"></script>
+  <script src="js/field_pass.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

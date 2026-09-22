@@ -1,0 +1,477 @@
+[
+  {
+    "file": "index.html",
+    "line": 144,
+    "text": "<a href=\"html/planner.html\" data-i18n=\"nav_planner\">Itinerary</a>"
+  },
+  {
+    "file": "map.html",
+    "line": 105,
+    "text": "<a href=\"planner.html\" data-i18n=\"nav_planner\">Itinerary</a>"
+  },
+  {
+    "file": "map.html",
+    "line": 145,
+    "text": "<p class=\"page-sub\">Interactive spatial discovery powered by Leaflet.js and CARTO vector tiles. Click any pulse node to inspect live regional telemetry, road conditions, mountain pass alerts, and custom itinerary routes.</p>"
+  },
+  {
+    "file": "map.html",
+    "line": 188,
+    "text": "<p data-i18n=\"map_panel_desc\">Hover over any pulse marker on the map to preview interactive cards, or click to inspect full regional telemetry and connect immediately to the Smart Itinerary Planner.</p>"
+  },
+  {
+    "file": "map.html",
+    "line": 196,
+    "text": "<h2 data-i18n=\"cta_title\">Build an itinerary based on these map coordinates</h2>"
+  },
+  {
+    "file": "map.html",
+    "line": 330,
+    "text": "<button class=\"btn primary\" id=\"planFromJourneyBtn\" data-i18n=\"drawer_plan\">Plan Custom Itinerary →</button>"
+  },
+  {
+    "file": "profile.html",
+    "line": 212,
+    "text": "<p>Use the planner form to create your first expedition itinerary.</p>"
+  },
+  {
+    "file": "html\\ai.html",
+    "line": 108,
+    "text": "<a href=\"planner.html\" data-i18n=\"nav_planner\">Itinerary</a>"
+  },
+  {
+    "file": "html\\ai.html",
+    "line": 224,
+    "text": "<h2 data-i18n=\"cta_title\">Transform AI insights into a verified itinerary</h2>"
+  },
+  {
+    "file": "html\\ai.html",
+    "line": 369,
+    "text": "<button class=\"btn primary\" id=\"planFromJourneyBtn\" data-i18n=\"drawer_plan\">Plan Custom Itinerary →</button>"
+  },
+  {
+    "file": "html\\circuits.html",
+    "line": 99,
+    "text": "<a href=\"planner.html\" data-i18n=\"nav_planner\">Itinerary</a>"
+  },
+  {
+    "file": "html\\circuits.html",
+    "line": 317,
+    "text": "<button class=\"btn primary\" id=\"planFromJourneyBtn\" data-i18n=\"drawer_plan\">Plan Custom Itinerary →</button>"
+  },
+  {
+    "file": "html\\culture.html",
+    "line": 155,
+    "text": "<a href=\"planner.html\" data-i18n=\"nav_planner\">Itinerary</a>"
+  },
+  {
+    "file": "html\\culture.html",
+    "line": 289,
+    "text": "<h2 data-i18n=\"cta_title\">Plan an itinerary centered on living culture</h2>"
+  },
+  {
+    "file": "html\\culture.html",
+    "line": 423,
+    "text": "<button class=\"btn primary\" id=\"planFromJourneyBtn\" data-i18n=\"drawer_plan\">Plan Custom Itinerary →</button>"
+  },
+  {
+    "file": "html\\explore.html",
+    "line": 116,
+    "text": "<a href=\"planner.html\" data-i18n=\"nav_planner\">Itinerary</a>"
+  },
+  {
+    "file": "html\\explore.html",
+    "line": 378,
+    "text": "<button class=\"btn primary\" id=\"planFromJourneyBtn\" data-i18n=\"drawer_plan\">Plan Custom Itinerary →</button>"
+  },
+  {
+    "file": "html\\food.html",
+    "line": 114,
+    "text": "<a href=\"planner.html\" data-i18n=\"nav_planner\">Itinerary</a>"
+  },
+  {
+    "file": "html\\food.html",
+    "line": 197,
+    "text": "<h2 data-i18n=\"cta_title\">Include local culinary stops in your itinerary</h2>"
+  },
+  {
+    "file": "html\\food.html",
+    "line": 331,
+    "text": "<button class=\"btn primary\" id=\"planFromJourneyBtn\" data-i18n=\"drawer_plan\">Plan Custom Itinerary →</button>"
+  },
+  {
+    "file": "html\\home.html",
+    "line": 7,
+    "text": "<meta name=\"keywords\" content=\"Bharat Explore, India tourism, SIH 2026, sustainable tourism, Ladakh travel, mountain passes, cultural corridors, smart itinerary, AI travel\">"
+  },
+  {
+    "file": "html\\home.html",
+    "line": 104,
+    "text": "<a href=\"planner.html\" data-i18n=\"nav_planner\">Itinerary</a>"
+  },
+  {
+    "file": "html\\home.html",
+    "line": 252,
+    "text": "<p data-i18n=\"map_panel_desc\">Hover over any pulse marker on the map to preview interactive cards, or click to inspect full regional telemetry and connect immediately to the Smart Itinerary Planner.</p>"
+  },
+  {
+    "file": "html\\home.html",
+    "line": 329,
+    "text": "<!-- Smart Itinerary Builder with Live Pass Telemetry -->"
+  },
+  {
+    "file": "html\\home.html",
+    "line": 333,
+    "text": "<p class=\"eyebrow\" data-i18n=\"plan_eyebrow\">SMART ITINERARY BUILDER</p>"
+  },
+  {
+    "file": "html\\home.html",
+    "line": 337,
+    "text": "<p data-i18n=\"plan_sub\">AI-audited itinerary generator factoring in live mountain pass safety alerts, acclimatization pacing, and responsible travel choices.</p>"
+  },
+  {
+    "file": "html\\home.html",
+    "line": 394,
+    "text": "<button class=\"btn primary\" type=\"submit\" data-i18n=\"plan_btn_generate\">⚡ Generate Safety-Audited Itinerary</button>"
+  },
+  {
+    "file": "html\\home.html",
+    "line": 397,
+    "text": "<div id=\"itineraryOutput\" class=\"itinerary-output\">"
+  },
+  {
+    "file": "html\\home.html",
+    "line": 401,
+    "text": "<p data-i18n=\"plan_empty_sub\">Fill out the expedition parameters on the left to compute a live itinerary audited against real-time mountain pass telemetry and AMS acclimatization pacing.</p>"
+  },
+  {
+    "file": "html\\home.html",
+    "line": 690,
+    "text": "<button class=\"btn primary\" id=\"planFromJourneyBtn\" data-i18n=\"drawer_plan\">Plan Custom Itinerary →</button>"
+  },
+  {
+    "file": "html\\index.html",
+    "line": 144,
+    "text": "<a href=\"planner.html\" data-i18n=\"nav_planner\">Itinerary</a>"
+  },
+  {
+    "file": "html\\map.html",
+    "line": 105,
+    "text": "<a href=\"planner.html\" data-i18n=\"nav_planner\">Itinerary</a>"
+  },
+  {
+    "file": "html\\map.html",
+    "line": 145,
+    "text": "<p class=\"page-sub\">Interactive spatial discovery powered by Leaflet.js and CARTO vector tiles. Click any pulse node to inspect live regional telemetry, road conditions, mountain pass alerts, and custom itinerary routes.</p>"
+  },
+  {
+    "file": "html\\map.html",
+    "line": 188,
+    "text": "<p data-i18n=\"map_panel_desc\">Hover over any pulse marker on the map to preview interactive cards, or click to inspect full regional telemetry and connect immediately to the Smart Itinerary Planner.</p>"
+  },
+  {
+    "file": "html\\map.html",
+    "line": 196,
+    "text": "<h2 data-i18n=\"cta_title\">Build an itinerary based on these map coordinates</h2>"
+  },
+  {
+    "file": "html\\map.html",
+    "line": 330,
+    "text": "<button class=\"btn primary\" id=\"planFromJourneyBtn\" data-i18n=\"drawer_plan\">Plan Custom Itinerary →</button>"
+  },
+  {
+    "file": "html\\planner.html",
+    "line": 6,
+    "text": "<meta name=\"description\" content=\"AI-audited smart itinerary generator factoring in live mountain pass safety alerts, acclimatization pacing, and responsible travel choices. Built for Smart India Hackathon (SIH 2026).\">"
+  },
+  {
+    "file": "html\\planner.html",
+    "line": 7,
+    "text": "<meta name=\"keywords\" content=\"Ladakh itinerary, AI travel planner, high altitude acclimatization, Khardung La pass safety, Pangong route, sustainable tourism planner, SIH 2026\">"
+  },
+  {
+    "file": "html\\planner.html",
+    "line": 27,
+    "text": "<meta property=\"og:title\" content=\"Smart Itinerary Planner — Bharat Explore\">"
+  },
+  {
+    "file": "html\\planner.html",
+    "line": 35,
+    "text": "<meta name=\"twitter:title\" content=\"Smart Itinerary Planner — Bharat Explore\">"
+  },
+  {
+    "file": "html\\planner.html",
+    "line": 56,
+    "text": "\"name\": \"Itinerary Planner\","
+  },
+  {
+    "file": "html\\planner.html",
+    "line": 74,
+    "text": "<title>Smart Itinerary Planner — Bharat Explore</title>"
+  },
+  {
+    "file": "html\\planner.html",
+    "line": 102,
+    "text": "<a href=\"planner.html\" class=\"active\" data-i18n=\"nav_planner\">Itinerary</a>"
+  },
+  {
+    "file": "html\\planner.html",
+    "line": 136,
+    "text": "<b>Smart Itinerary Builder</b>"
+  },
+  {
+    "file": "html\\planner.html",
+    "line": 142,
+    "text": "<p class=\"page-sub\">Algorithmic itinerary generator factoring in live mountain pass safety alerts, acclimatization pacing, and responsible travel choices.</p>"
+  },
+  {
+    "file": "html\\planner.html",
+    "line": 161,
+    "text": "<!-- Smart Itinerary Builder Section -->"
+  },
+  {
+    "file": "html\\planner.html",
+    "line": 223,
+    "text": "<button class=\"btn primary\" type=\"submit\" data-i18n=\"plan_btn_generate\">⚡ Generate Safety-Audited Itinerary</button>"
+  },
+  {
+    "file": "html\\planner.html",
+    "line": 226,
+    "text": "<div id=\"itineraryOutput\" class=\"itinerary-output\">"
+  },
+  {
+    "file": "html\\planner.html",
+    "line": 230,
+    "text": "<p data-i18n=\"plan_empty_sub\">Fill out the expedition parameters on the left to compute a live itinerary audited against real-time mountain pass telemetry and AMS acclimatization pacing.</p>"
+  },
+  {
+    "file": "html\\planner.html",
+    "line": 239,
+    "text": "<h2 data-i18n=\"ai_title\">Ask Bharat AI to personalize this itinerary</h2>"
+  },
+  {
+    "file": "html\\planner.html",
+    "line": 373,
+    "text": "<button class=\"btn primary\" id=\"planFromJourneyBtn\" data-i18n=\"drawer_plan\">Plan Custom Itinerary →</button>"
+  },
+  {
+    "file": "html\\profile.html",
+    "line": 212,
+    "text": "<p>Use the planner form to create your first expedition itinerary.</p>"
+  },
+  {
+    "file": "html\\responsible.html",
+    "line": 103,
+    "text": "<a href=\"planner.html\" data-i18n=\"nav_planner\">Itinerary</a>"
+  },
+  {
+    "file": "html\\responsible.html",
+    "line": 387,
+    "text": "<button class=\"btn primary\" id=\"planFromJourneyBtn\" data-i18n=\"drawer_plan\">Plan Custom Itinerary →</button>"
+  },
+  {
+    "file": "js\\ai.js",
+    "line": 2,
+    "text": "* Bharat Explore — AI Assistant & Smart Itinerary Engine"
+  },
+  {
+    "file": "js\\ai.js",
+    "line": 4,
+    "text": "* Modular client architecture for streaming AI guidance & pass-audited itinerary planning"
+  },
+  {
+    "file": "js\\ai.js",
+    "line": 474,
+    "text": "//  SMART SAFETY-AUDITED ITINERARY PLANNER"
+  },
+  {
+    "file": "js\\ai.js",
+    "line": 477,
+    "text": "let lastItineraryParams = null;"
+  },
+  {
+    "file": "js\\ai.js",
+    "line": 479,
+    "text": "async function itinerary(e) {"
+  },
+  {
+    "file": "js\\ai.js",
+    "line": 495,
+    "text": "lastItineraryParams = { dest, days, budget, style, interest };"
+  },
+  {
+    "file": "js\\ai.js",
+    "line": 499,
+    "text": "const ladakhItineraryEn = ["
+  },
+  {
+    "file": "js\\ai.js",
+    "line": 511,
+    "text": "const ladakhItineraryHi = ["
+  },
+  {
+    "file": "js\\ai.js",
+    "line": 523,
+    "text": "const ladakhItineraryBn = ["
+  },
+  {
+    "file": "js\\ai.js",
+    "line": 535,
+    "text": "const genericItineraryEn = ["
+  },
+  {
+    "file": "js\\ai.js",
+    "line": 543,
+    "text": "const genericItineraryHi = ["
+  },
+  {
+    "file": "js\\ai.js",
+    "line": 551,
+    "text": "const genericItineraryBn = ["
+  },
+  {
+    "file": "js\\ai.js",
+    "line": 561,
+    "text": "? (lang === \"hi\" ? ladakhItineraryHi : lang === \"bn\" ? ladakhItineraryBn : ladakhItineraryEn)"
+  },
+  {
+    "file": "js\\ai.js",
+    "line": 562,
+    "text": ": (lang === \"hi\" ? genericItineraryHi : lang === \"bn\" ? genericItineraryBn : genericItineraryEn);"
+  },
+  {
+    "file": "js\\ai.js",
+    "line": 655,
+    "text": "const output = $(\"#itineraryOutput\");"
+  },
+  {
+    "file": "js\\ai.js",
+    "line": 659,
+    "text": "// Re-generate active itinerary on language change if user already generated one"
+  },
+  {
+    "file": "js\\ai.js",
+    "line": 661,
+    "text": "const output = $(\"#itineraryOutput\");"
+  },
+  {
+    "file": "js\\ai.js",
+    "line": 662,
+    "text": "if (output && !output.querySelector(\".empty-state\") && lastItineraryParams) {"
+  },
+  {
+    "file": "js\\ai.js",
+    "line": 663,
+    "text": "itinerary();"
+  },
+  {
+    "file": "js\\ai.js",
+    "line": 692,
+    "text": "toast(`Selected ${stateName} for safety-audited itinerary generation.`);"
+  },
+  {
+    "file": "js\\ai.js",
+    "line": 707,
+    "text": "// Itinerary form submission"
+  },
+  {
+    "file": "js\\ai.js",
+    "line": 709,
+    "text": "if (plannerForm) plannerForm.onsubmit = itinerary;"
+  },
+  {
+    "file": "js\\ai.js",
+    "line": 734,
+    "text": "window.itinerary = itinerary;"
+  },
+  {
+    "file": "js\\app.js",
+    "line": 1285,
+    "text": "//  AI AGENT & SMART ITINERARY PLANNER"
+  },
+  {
+    "file": "js\\app.js",
+    "line": 1781,
+    "text": "// Itinerary form submission"
+  },
+  {
+    "file": "js\\app.js",
+    "line": 1783,
+    "text": "if (plannerForm) plannerForm.onsubmit = itinerary;"
+  },
+  {
+    "file": "js\\game.js",
+    "line": 791,
+    "text": "${lang === 'hi' ? 'मार्ग अनुसार यात्रा योजना बनाएं →' : lang === 'bn' ? 'এই রুটে ভ্রমণ পরিকল্পনা করুন →' : 'Plan Real Itinerary for This Route →'}"
+  },
+  {
+    "file": "js\\i18n.js",
+    "line": 21,
+    "text": "nav_planner: \"Itinerary\","
+  },
+  {
+    "file": "js\\i18n.js",
+    "line": 80,
+    "text": "map_panel_desc: \"Hover over any pulse marker on the map to preview interactive cards, or click to inspect full regional telemetry and connect immediately to the Smart Itinerary Planner.\","
+  },
+  {
+    "file": "js\\i18n.js",
+    "line": 111,
+    "text": "plan_eyebrow: \"SMART ITINERARY BUILDER\","
+  },
+  {
+    "file": "js\\i18n.js",
+    "line": 113,
+    "text": "plan_sub: \"AI-audited itinerary generator factoring in live mountain pass safety alerts, acclimatization pacing, and responsible travel choices.\","
+  },
+  {
+    "file": "js\\i18n.js",
+    "line": 121,
+    "text": "plan_btn_generate: \"⚡ Generate Safety-Audited Itinerary\","
+  },
+  {
+    "file": "js\\i18n.js",
+    "line": 123,
+    "text": "plan_empty_sub: \"Fill out the expedition parameters on the left to compute a live itinerary audited against real-time mountain pass telemetry and AMS acclimatization pacing.\","
+  },
+  {
+    "file": "js\\i18n.js",
+    "line": 202,
+    "text": "drawer_plan: \"Plan Custom Itinerary →\","
+  },
+  {
+    "file": "js\\map.js",
+    "line": 959,
+    "text": "<button class=\"map-btn-action plan\" onclick=\"planHotspot('${h.name}')\" title=\"Generate AI Itinerary\">Plan Trip ✦</button>"
+  },
+  {
+    "file": "js\\map.js",
+    "line": 984,
+    "text": "<p>Click on any pulse marker on the map to inspect full interactive cards and regional telemetry, or connect immediately to the Smart Itinerary Planner.</p>"
+  },
+  {
+    "file": "js\\map.js",
+    "line": 1065,
+    "text": "const btnPlanText = lang === \"hi\" ? `योजना बनाएं (${h.name}) →` : lang === \"bn\" ? `ভ্রমণ পরিকল্পনা (${h.name}) →` : `Plan Itinerary for ${h.name} →`;"
+  },
+  {
+    "file": "js\\map.js",
+    "line": 1117,
+    "text": "const btnPlanText = lang === \"hi\" ? `योजना बनाएं (${name}) →` : lang === \"bn\" ? `ভ্রমণ পরিকল্পনা (${name}) →` : `Plan Itinerary for ${name} →`;"
+  },
+  {
+    "file": "js\\map.js",
+    "line": 1169,
+    "text": "toast(`Selected ${stateName} for safety-audited itinerary generation.`);"
+  },
+  {
+    "file": "src\\components\\Home.tsx",
+    "line": 121,
+    "text": "Itinerary"
+  },
+  {
+    "file": "src\\components\\Home.tsx",
+    "line": 194,
+    "text": "{/* Atmospheric Smart Itinerary Subtext */}"
+  }
+]
