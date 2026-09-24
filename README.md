@@ -39,6 +39,10 @@ Frontend → REST/API layer → Python Flask/FastAPI → MySQL/MongoDB → AI/LL
 The JavaScript data arrays are intentionally separated from rendering logic so they can later be replaced by API responses.
 
 
+
+## COPYRIGHT
+
+
 🛑STRICT LEGAL WARNING: UNAUTHORIZED USE PROHIBITED
 
 Copyright © 2026 Piyal Tambuli. All rights reserved.
