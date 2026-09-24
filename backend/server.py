@@ -27,7 +27,7 @@ reload_environment()
 from fastapi import FastAPI, Depends, Query, HTTPException, Header, status
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import StreamingResponse, FileResponse, Response
+from fastapi.responses import StreamingResponse, FileResponse, Response, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 import jwt
@@ -2433,6 +2433,15 @@ if (BASE_DIR / "src").exists():
 @app.get("/html/{page_name}")
 def serve_html_extensionless(page_name: str):
     name = page_name[:-5] if page_name.lower().endswith(".html") else page_name
+    # html/index.html is a copy of the landing page whose internal links assume
+    # it is being served at "/". Serving it directly at /html/index(.html) makes
+    # every relative link and asset on that page resolve one level too deep
+    # (e.g. html/explore.html -> html/html/explore.html), which is exactly the
+    # "path not routed" error seen when the Home link is followed from a nested
+    # page. Redirect these URLs back to "/" instead of rendering the file as-is,
+    # mirroring the same rule already used in vercel.json for prod deployments.
+    if name.lower() == "index":
+        return RedirectResponse(url="/", status_code=308)
     return serve_html_file(f"{name}.html")
 
 if HTML_DIR.exists():
